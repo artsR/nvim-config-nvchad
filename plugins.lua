@@ -67,6 +67,7 @@ local plugins = {
    { import = "nvcommunity.motion.hop" },
    { import = "nvcommunity.folds.ufo" },
    { import = "nvcommunity.editor.symbols-outline" },
+   { import = "nvcommunity.editor.treesittercontext" },
    { import = "nvcommunity.editor.rainbowdelimiters" },
   },
 
