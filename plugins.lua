@@ -62,11 +62,11 @@ local plugins = {
   -- }
     --
   -- Plugins that can be loaded from NvCommunity repo
-  -- {
-  --  "NvChad/nvcommunity",
-  --  { import = "nvcommunity." },
-  -- },
-  --
+  {
+   "NvChad/nvcommunity",
+   { import = "nvcommunity.motion.hop" },
+  },
+
   -- Plugins not provided by NvChad repo
   {
     "folke/noice.nvim",
