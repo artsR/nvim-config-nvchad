@@ -66,6 +66,7 @@ local plugins = {
    "NvChad/nvcommunity",
    { import = "nvcommunity.motion.hop" },
    { import = "nvcommunity.folds.ufo" },
+   { import = "nvcommunity.editor.symbols-outline" },
   },
 
   -- Plugins not provided by NvChad repo
