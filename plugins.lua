@@ -68,6 +68,19 @@ local plugins = {
   },
 
   -- Plugins not provided by NvChad repo
+  --
+  {
+    "kylechui/nvim-surround",
+    event = "VeryLazy",
+    dependencies = {
+      "nvim-treesitter/nvim-treesitter",
+      "nvim-treesitter/nvim-treesitter-textobjects",
+    },
+    config = function()
+      require("nvim-surround").setup()
+    end
+  },
+
   {
     "folke/noice.nvim",
     event = "VeryLazy",
