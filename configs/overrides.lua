@@ -1,5 +1,26 @@
 local M = {}
 
+M.nvterm = {
+  terminals = {
+    shell = "pwsh",
+    type_opts = {
+      float = {
+        row = 0.2,
+        col = 0.1,
+        width = 0.8,
+        height = 0.5,
+      },
+      horizontal = {
+        split_ratio = 0.1,
+      },
+      vertical = {
+        location = 'rightbelow',
+        split_ratio = 0.2,
+      },
+    }
+  },
+}
+
 M.treesitter = {
   ensure_installed = {
     "vim",

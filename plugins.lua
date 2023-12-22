@@ -24,6 +24,11 @@ local plugins = {
 
   -- override plugin configs
   {
+    "nvchad/nvterm",
+    opts = overrides.nvterm
+  },
+
+  {
     "williamboman/mason.nvim",
     opts = overrides.mason
   },
