@@ -74,6 +74,7 @@ local plugins = {
    { import = "nvcommunity.editor.symbols-outline" },
    { import = "nvcommunity.editor.treesittercontext" },
    { import = "nvcommunity.editor.rainbowdelimiters" },
+   { import = "nvcommunity.diagnostics.trouble" },
   },
 
   -- Plugins not provided by NvChad repo
