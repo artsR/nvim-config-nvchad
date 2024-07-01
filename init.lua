@@ -11,5 +11,8 @@ local o = vim.o
 if g.neovide then
   o.guifont = "ComicShannsMono Nerd Font:h13"
   g.neovide_remember_window_size = true
+  g.neovide_cursor_animate_command_line = true
   g.neovide_cursor_vfx_mode = "railgun"
+  g.neovide_cursor_vfx_particle_lifetime = 2.0 -- 1.2
+  g.neovide_cursor_vfx_particle_density = 10.0 -- 7.0
 end
