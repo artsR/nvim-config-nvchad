@@ -140,6 +140,10 @@ local plugins = {
   --   end
   -- },
 
+  {
+    "PProvost/vim-ps1",
+  },
+
 }
 
 return plugins
