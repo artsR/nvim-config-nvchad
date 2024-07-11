@@ -6,6 +6,7 @@ M.general = {
     [";"] = { ":", "enter command mode", opts = { nowait = true } },
     ["<leader>sl"] = { "<CMD>SymbolsOutline<CR>", "Toggle list of symbols", opts = { nowait = true } },
     [",w"] = { "/[A-Z]<CR><CMD>nohlsearch<CR>", "go to the next camelCase", opts = {} },
+    ["<leader><leader>x"] = { "<CMD>source %<CR>", "e[x]ecute the current file", opts = {} },
   },
 
   v = {
